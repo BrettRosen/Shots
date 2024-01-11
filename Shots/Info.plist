@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>UIAppFonts</key>
+	<array>
+		<string>Nohemi-Black.ttf</string>
+		<string>Nohemi-VF.ttf</string>
+		<string>Nohemi-Bold.ttf</string>
+		<string>Nohemi-ExtraBold.ttf</string>
+		<string>Nohemi-ExtraLight.ttf</string>
+		<string>Nohemi-Light.ttf</string>
+		<string>Nohemi-Medium.ttf</string>
+		<string>Nohemi-Regular.ttf</string>
+		<string>Nohemi-SemiBold.ttf</string>
+		<string>Nohemi-Thin.ttf</string>
+	</array>
+</dict>
+</plist>

@@ -6,3 +6,8 @@
 //
 
 import Foundation
+import SwiftUI
+
+extension Font {
+    static let nohemi: Font = .custom("Nohemi-Regular", size: 12)
+}
