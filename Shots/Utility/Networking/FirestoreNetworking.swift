@@ -40,7 +40,7 @@ final class Networking {
 
     // MARK: Collection types
     enum FirestoreCollection: String {
-        case pages
+        case users
     }
 
     // MARK: Document state

@@ -37,6 +37,9 @@
 		1F2373C32B50A9970023EE55 /* FirebaseStorage in Frameworks */ = {isa = PBXBuildFile; productRef = 1F2373C22B50A9970023EE55 /* FirebaseStorage */; };
 		1F2373C52B50A9970023EE55 /* FirebaseStorageCombine-Community in Frameworks */ = {isa = PBXBuildFile; productRef = 1F2373C42B50A9970023EE55 /* FirebaseStorageCombine-Community */; };
 		1F2373C82B50AA050023EE55 /* FirestoreNetworking.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F2373C72B50AA050023EE55 /* FirestoreNetworking.swift */; };
+		1F2373CA2B50ABD50023EE55 /* FirebaseStorage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F2373C92B50ABD50023EE55 /* FirebaseStorage.swift */; };
+		1F2373CD2B50AD8B0023EE55 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F2373CC2B50AD8B0023EE55 /* User.swift */; };
+		1F2373CF2B50ADDC0023EE55 /* FilmRoll.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F2373CE2B50ADDC0023EE55 /* FilmRoll.swift */; };
 		1F4C8AEA2B33C30E00DD09AE /* Nohemi-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1F4C8AE12B33C30E00DD09AE /* Nohemi-Thin.ttf */; };
 		1F4C8AEB2B33C30E00DD09AE /* Nohemi-ExtraLight.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1F4C8AE22B33C30E00DD09AE /* Nohemi-ExtraLight.ttf */; };
 		1F4C8AEC2B33C30E00DD09AE /* Nohemi-ExtraBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1F4C8AE32B33C30E00DD09AE /* Nohemi-ExtraBold.ttf */; };
@@ -61,6 +64,14 @@
 		1F52837F2B23DCCF000F5260 /* Codable+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F52837C2B23DCCF000F5260 /* Codable+Extensions.swift */; };
 		1F5283822B23DDF6000F5260 /* BetterCodable in Frameworks */ = {isa = PBXBuildFile; productRef = 1F5283812B23DDF6000F5260 /* BetterCodable */; };
 		1F5283842B241A68000F5260 /* EquatableIgnored.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F5283832B241A68000F5260 /* EquatableIgnored.swift */; };
+		1F6E33882B50CD040018D1E7 /* LoginSignupFeature.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F6E33872B50CD040018D1E7 /* LoginSignupFeature.swift */; };
+		1F6E338A2B50CD130018D1E7 /* UserClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F6E33892B50CD130018D1E7 /* UserClient.swift */; };
+		1F6E338C2B50CD550018D1E7 /* UserNetworking.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F6E338B2B50CD550018D1E7 /* UserNetworking.swift */; };
+		1F6E338E2B50CEF70018D1E7 /* OnboardingLoginFeature.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F6E338D2B50CEF70018D1E7 /* OnboardingLoginFeature.swift */; };
+		1F6E33902B50CF050018D1E7 /* OnboardingLoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F6E338F2B50CF050018D1E7 /* OnboardingLoginView.swift */; };
+		1F6E33922B50D1F60018D1E7 /* UserDefaultsClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F6E33912B50D1F60018D1E7 /* UserDefaultsClient.swift */; };
+		1F6E33942B50D2B60018D1E7 /* OnboardingNotificationFeature.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F6E33932B50D2B60018D1E7 /* OnboardingNotificationFeature.swift */; };
+		1F6E33962B50D2BE0018D1E7 /* OnboardingNotificationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F6E33952B50D2BE0018D1E7 /* OnboardingNotificationView.swift */; };
 		1F81949F2B33C70100764F37 /* ImageClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F81949E2B33C70100764F37 /* ImageClient.swift */; };
 		1F8194A22B33C75000764F37 /* HomeFeature.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F8194A12B33C75000764F37 /* HomeFeature.swift */; };
 /* End PBXBuildFile section */
@@ -87,6 +98,9 @@
 		1F23738B2B4F66BE0023EE55 /* AppFeature.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppFeature.swift; sourceTree = "<group>"; };
 		1F23738F2B50A9240023EE55 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		1F2373C72B50AA050023EE55 /* FirestoreNetworking.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirestoreNetworking.swift; sourceTree = "<group>"; };
+		1F2373C92B50ABD50023EE55 /* FirebaseStorage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirebaseStorage.swift; sourceTree = "<group>"; };
+		1F2373CC2B50AD8B0023EE55 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		1F2373CE2B50ADDC0023EE55 /* FilmRoll.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilmRoll.swift; sourceTree = "<group>"; };
 		1F4C8AE12B33C30E00DD09AE /* Nohemi-Thin.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Nohemi-Thin.ttf"; sourceTree = "<group>"; };
 		1F4C8AE22B33C30E00DD09AE /* Nohemi-ExtraLight.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Nohemi-ExtraLight.ttf"; sourceTree = "<group>"; };
 		1F4C8AE32B33C30E00DD09AE /* Nohemi-ExtraBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Nohemi-ExtraBold.ttf"; sourceTree = "<group>"; };
@@ -113,6 +127,15 @@
 		1F52837B2B23DCCF000F5260 /* FeatureAction.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FeatureAction.swift; sourceTree = "<group>"; };
 		1F52837C2B23DCCF000F5260 /* Codable+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Codable+Extensions.swift"; sourceTree = "<group>"; };
 		1F5283832B241A68000F5260 /* EquatableIgnored.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EquatableIgnored.swift; sourceTree = "<group>"; };
+		1F6E33862B50CCC20018D1E7 /* Shots.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Shots.entitlements; sourceTree = "<group>"; };
+		1F6E33872B50CD040018D1E7 /* LoginSignupFeature.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginSignupFeature.swift; sourceTree = "<group>"; };
+		1F6E33892B50CD130018D1E7 /* UserClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserClient.swift; sourceTree = "<group>"; };
+		1F6E338B2B50CD550018D1E7 /* UserNetworking.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserNetworking.swift; sourceTree = "<group>"; };
+		1F6E338D2B50CEF70018D1E7 /* OnboardingLoginFeature.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingLoginFeature.swift; sourceTree = "<group>"; };
+		1F6E338F2B50CF050018D1E7 /* OnboardingLoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingLoginView.swift; sourceTree = "<group>"; };
+		1F6E33912B50D1F60018D1E7 /* UserDefaultsClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDefaultsClient.swift; sourceTree = "<group>"; };
+		1F6E33932B50D2B60018D1E7 /* OnboardingNotificationFeature.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingNotificationFeature.swift; sourceTree = "<group>"; };
+		1F6E33952B50D2BE0018D1E7 /* OnboardingNotificationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingNotificationView.swift; sourceTree = "<group>"; };
 		1F81949E2B33C70100764F37 /* ImageClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageClient.swift; sourceTree = "<group>"; };
 		1F8194A12B33C75000764F37 /* HomeFeature.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeFeature.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -182,8 +205,19 @@
 			isa = PBXGroup;
 			children = (
 				1F2373C72B50AA050023EE55 /* FirestoreNetworking.swift */,
+				1F2373C92B50ABD50023EE55 /* FirebaseStorage.swift */,
+				1F6E338B2B50CD550018D1E7 /* UserNetworking.swift */,
 			);
 			path = Networking;
+			sourceTree = "<group>";
+		};
+		1F2373CB2B50AD800023EE55 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				1F2373CC2B50AD8B0023EE55 /* User.swift */,
+				1F2373CE2B50ADDC0023EE55 /* FilmRoll.swift */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 		1F4C8AE02B33C2ED00DD09AE /* Fonts */ = {
@@ -235,8 +269,10 @@
 		1F52834A2B23D336000F5260 /* Shots */ = {
 			isa = PBXGroup;
 			children = (
+				1F6E33862B50CCC20018D1E7 /* Shots.entitlements */,
 				1F4C8AF32B33C32100DD09AE /* Info.plist */,
 				1F23738F2B50A9240023EE55 /* GoogleService-Info.plist */,
+				1F2373CB2B50AD800023EE55 /* Models */,
 				1F2373882B4F606E0023EE55 /* Components */,
 				1F8194A02B33C72E00764F37 /* Features */,
 				1F81949D2B33C6F600764F37 /* Utility */,
@@ -297,6 +333,8 @@
 			children = (
 				1F2373C62B50A9F90023EE55 /* Networking */,
 				1F81949E2B33C70100764F37 /* ImageClient.swift */,
+				1F6E33892B50CD130018D1E7 /* UserClient.swift */,
+				1F6E33912B50D1F60018D1E7 /* UserDefaultsClient.swift */,
 			);
 			path = Utility;
 			sourceTree = "<group>";
@@ -306,6 +344,11 @@
 			children = (
 				1F52834B2B23D336000F5260 /* ShotsApp.swift */,
 				1F23738B2B4F66BE0023EE55 /* AppFeature.swift */,
+				1F6E33872B50CD040018D1E7 /* LoginSignupFeature.swift */,
+				1F6E338D2B50CEF70018D1E7 /* OnboardingLoginFeature.swift */,
+				1F6E338F2B50CF050018D1E7 /* OnboardingLoginView.swift */,
+				1F6E33932B50D2B60018D1E7 /* OnboardingNotificationFeature.swift */,
+				1F6E33952B50D2BE0018D1E7 /* OnboardingNotificationView.swift */,
 				1F8194A12B33C75000764F37 /* HomeFeature.swift */,
 				1F52834D2B23D336000F5260 /* HomeView.swift */,
 			);
@@ -489,17 +532,28 @@
 			buildActionMask = 2147483647;
 			files = (
 				1F4C8AF62B33C37600DD09AE /* Fonts.swift in Sources */,
+				1F6E33922B50D1F60018D1E7 /* UserDefaultsClient.swift in Sources */,
+				1F6E338E2B50CEF70018D1E7 /* OnboardingLoginFeature.swift in Sources */,
 				1F52837E2B23DCCF000F5260 /* FeatureAction.swift in Sources */,
+				1F6E33902B50CF050018D1E7 /* OnboardingLoginView.swift in Sources */,
 				1F23738C2B4F66BE0023EE55 /* AppFeature.swift in Sources */,
 				1F2373C82B50AA050023EE55 /* FirestoreNetworking.swift in Sources */,
 				1F5283842B241A68000F5260 /* EquatableIgnored.swift in Sources */,
 				1F8194A22B33C75000764F37 /* HomeFeature.swift in Sources */,
+				1F6E338A2B50CD130018D1E7 /* UserClient.swift in Sources */,
+				1F2373CD2B50AD8B0023EE55 /* User.swift in Sources */,
 				1F52834E2B23D336000F5260 /* HomeView.swift in Sources */,
+				1F2373CF2B50ADDC0023EE55 /* FilmRoll.swift in Sources */,
+				1F6E338C2B50CD550018D1E7 /* UserNetworking.swift in Sources */,
 				1F52834C2B23D336000F5260 /* ShotsApp.swift in Sources */,
+				1F6E33962B50D2BE0018D1E7 /* OnboardingNotificationView.swift in Sources */,
 				1F52837F2B23DCCF000F5260 /* Codable+Extensions.swift in Sources */,
 				1F81949F2B33C70100764F37 /* ImageClient.swift in Sources */,
 				1F52837D2B23DCCF000F5260 /* TemplateFeature.swift in Sources */,
+				1F6E33942B50D2B60018D1E7 /* OnboardingNotificationFeature.swift in Sources */,
 				1F23738A2B4F60840023EE55 /* VTabView.swift in Sources */,
+				1F6E33882B50CD040018D1E7 /* LoginSignupFeature.swift in Sources */,
+				1F2373CA2B50ABD50023EE55 /* FirebaseStorage.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -660,6 +714,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Shots/Shots.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Shots/Preview Content\"";
@@ -692,6 +747,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Shots/Shots.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Shots/Preview Content\"";
